@@ -13,7 +13,34 @@
         <br>Your comments: <textarea name="comments" rows="15" cols="75" wrap="hard"></textarea><br>
     </form>
     <form method="post">
-        <br>Have you purchased from us before? <input type="checkbox" name="purchase" value="yes">Yes <input type="checkbox" name="no" value="no">No<br>
+        <br>Have you purchased from us before?<br> 
+        <input type="checkbox" name="purchase" value="yes">Yes 
+        <br><input type="checkbox" name="no" value="no">No<br>
+    </form>
+    <form method="post">
+        <br>
+        Which best describes your status?
+        <select name="status" size="1">
+            <option value="Business">Business</option>
+            <option value="Governement">Governement</option>
+            <option value="individual">individual</option>
+        </select>
+    </form>
+    <form method="post">
+        <br>
+        How did you hear about us?
+        <br>
+        <input type="radio" name="source" value="tvradio">Tv,Radio
+        <br>
+        <input type="radio" name="source" value="newspaper">Newspaper
+        <br>
+        <input type="radio" name="source" value="friend">Friend
+        <br>
+        <form method="post">
+            <input type="submit"value="submit"><br>
+            <input type="reset"value="reset">
+            
+        </form>
     </form>
 </body>
 </html>
